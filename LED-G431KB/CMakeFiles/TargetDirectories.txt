@@ -1,0 +1,6 @@
+/home/user/STMws/LED-G431KB/CMakeFiles/LED-G431KB.dir
+/home/user/STMws/LED-G431KB/CMakeFiles/edit_cache.dir
+/home/user/STMws/LED-G431KB/CMakeFiles/rebuild_cache.dir
+/home/user/STMws/LED-G431KB/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
+/home/user/STMws/LED-G431KB/cmake/stm32cubemx/CMakeFiles/edit_cache.dir
+/home/user/STMws/LED-G431KB/cmake/stm32cubemx/CMakeFiles/rebuild_cache.dir
