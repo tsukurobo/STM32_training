@@ -48,7 +48,12 @@ target_link_directories(${CMAKE_PROJECT_NAME} PRIVATE
 # Add sources to executable
 target_sources(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user sources here
-    Core/Src/robosa_lib_src/can.c
+    Core/Src/robosa_lib_src/robosa_can.c
+    Core/Src/robosa_lib_src/robosa_servo.c
+    Core/Src/robosa_lib_src/robosa_time.c
+    Core/Src/robosa_lib_src/robosa_switch.c
+    Core/Src/robosa_lib_src/robosa_encoder.c
+    Core/Src/robosa_lib_src/robosa_robomas.c
 )
 
 # Add include paths
@@ -68,3 +73,4 @@ target_link_libraries(${CMAKE_PROJECT_NAME}
 
     # Add user defined libraries
 )
+target_link_options(${CMAKE_PROJECT_NAME} PRIVATE -u_printf_float)
